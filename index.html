@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spotify</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" type="text/css">
+</head>
+<style>
+    body {
+  margin: 0;
+  background-color: black;
+}
+
+ul {
+  list-style-type: none;  
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: rgb(19, 16, 16);
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  
+}
+
+li a {
+  display: block;
+  color: #fffafa;
+  padding: 8px 16px;
+  text-decoration: none;
+
+
+}
+a:hover{
+    text-decoration: underline;
+}
+
+li a.active {
+  /* background-color: #0a0a0a; */
+  color: white;
+}
+
+
+li i{
+    float: left;
+    position: relative;
+    top: 0px;
+    left: -9px;
+
+}
+.BB{
+    width:330px;
+    height: 140px;
+    background-color:#313131; 
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    margin-top: 10px;
+    margin-left: 2px;
+    color: white;
+    
+
+}
+input{
+
+  color:aqua;
+  border-style: none;
+  /* background-color: #0a0a0a; */
+  background: transparent;
+}
+button{
+  width: 150px;
+  height: 28px;
+  margin-left: 15px;
+  border-radius:250px;
+
+}
+.GG{
+  height: 2500px;
+  width: 74%;
+  background-color: rgb(19, 16, 16);
+  margin-left: 26%;
+
+
+}
+h1{
+
+  float: right;
+}
+.AA{
+  width: 27px;
+  height: 27px;
+  border-radius: 20px;
+  background-color:  rgb(0, 0, 0);
+  transform: translate(20px,2px);
+  align-self: flex-start;
+
+  
+}
+.LLL{
+  height: 30px;
+  width: 100%;
+  /* background-color: rgb(0, 0, 0); */
+  color: rgb(250, 250, 255);
+  display: flex;
+  justify-content: space-around;
+
+  
+
+
+
+  }
+.EE{
+  width: 27px;
+  height: 27px;
+  border-radius: 20px;
+  background-color:  rgb(0, 0, 0);
+  transform: translate(-150px,2px);
+
+ 
+}
+
+/* i{
+  position: absolute;
+  top:5px;
+  left: 5px;
+  transform: scale(1);} */
+  
+    
+     
+  
+  .JJ{
+  width: 27px;
+  height: 27px;
+  border-radius: 20px;
+  background-color:  rgb(0, 0, 0);
+  transform: translate(270px,1px);
+ 
+ 
+}
+.PP{
+  width: 27px;
+  height: 27px;
+  border-radius: 20px;
+  background-color:  rgb(0, 0, 0);
+  transform: translate(160px,1px);
+
+ 
+ 
+}
+.RR{
+  width: 27px;
+  height: 27px;
+  border-radius: 20px;
+  background-color:  rgb(0, 0, 0);
+  transform: translate(50px,1px); 
+ 
+}
+.AA{
+  position: relative;
+  right:70px;
+}
+
+
+#HOT1{
+  position: relative;
+  top:5px;
+  left:4px;
+}
+#HOT2{
+  position: relative;
+  top:5px;
+  left:6px;
+}
+#HOT3{
+  position: relative;
+  top:5px;
+  left:6px;
+}
+#HOT4{
+  position: relative;
+  top:5px;
+  left:3px;
+}
+#HOT5{
+  position: relative;
+  top:5px;
+  left:6px;
+}
+.YY{
+  transform: translate(375px,1px);
+
+}
+
+
+
+</style>
+<body>
+    
+    <ul>
+        
+        <li> <a class="active" href="#home">  <i class="fa-solid fa-house"></i>Home </a></li>
+        <li><a href="#news"> <i class="fa-solid fa-magnifying-glass"></i><input type="search" placeholder="Search"></a></li>
+        <li> <a class="active" href="#home">  <i class="fa-solid fa-house"></i>your </a></li>
+        <div class="BB"> 
+          <br>
+          <b>&emsp;Create your first playlist 
+
+          </b>
+          <br>
+          <br>
+          &emsp;it'easy,we'll help your
+          <br>
+          <br>
+          <button>Create playlist</button>
+        </div>
+         <br>
+        <div class="BB"> 
+          <br>
+          &emsp;Let's find some podcasts to follow
+        <br>
+        <br>
+        &emsp;We'll keep you updated on new episodes
+        <br>
+        <br>
+        <button>Browse podcasts</button> 
+      </div>
+              
+      </ul>
+
+      <div class="GG">
+        <br>
+        <div class="LLL">
+          <div class="AA" ><i class="fa-solid fa-arrow-left" id="HOT1"></i></div>
+          <div class="EE"><i class="fa-solid fa-arrow-right" id="HOT2"></i></div>
+          <button class="YY">Explore Premium</button>
+          <div class="JJ"><i class="fa-regular fa-bell" id="HOT3"></i></div>
+          <div class="PP"><i class="fa-solid fa-people-group"id="HOT4"></i></div>
+          <div class="RR"><i class="fa-regular fa-user"id="HOT5"></i></div>
+          </div>
+        
+     </div>
+       
+      
+
+  
+      
+
+</body>
+</html>
